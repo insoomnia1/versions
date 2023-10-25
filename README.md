@@ -11,7 +11,7 @@ Step 7 - Test The Resource And The Update Checke
 
 ```lua
 local function CheckVersion()
-    PerformHttpRequest('https://raw.githubusercontent.com/Marshxan/VersionChecker/master/FILE_NAME.txt', function(err, newestVersion, headers)
+    PerformHttpRequest('https://raw.githubusercontent.com/insoomnia!/versions/master/FILE_NAME.txt', function(err, newestVersion, headers)
     	local currentVersion = GetResourceMetadata(GetCurrentResourceName(), 'version')
         local resourcename = "RESOURCE_NAME_HERE"
         local howto = "Please Contact FrostyyDevs For A Update"
