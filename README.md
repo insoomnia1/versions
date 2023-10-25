@@ -7,7 +7,7 @@
 # Step 4 - Update local resourcename To The Resource Name
 # Step 5 - Update local howto To Your Howto Update
 # Step 6 - Match The Version In The txt To The Version In FxMani
-# Step 7 - Test The Resource And The Update Checke
+# Step 7 - Test The Resource And The Update Checker
 
 ```lua
 local function CheckVersion()
