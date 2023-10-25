@@ -1,13 +1,13 @@
-# versions
+## VERSIONS FOR MY RESOURCES
 
-How To Setup UpdateChecker
-Step 1 - Create A txt File In VersionChecker Resource/File
-Step 2 - Create A Server Side file And Add This Below
-Step 3 - Update FILE_NAME.txt On Line 11 To The txt Created
-Step 4 - Update local resourcename To The Resource Name
-Step 5 - Update local howto To Your Howto Update
-Step 6 - Match The Version In The txt To The Version In FxMani
-Step 7 - Test The Resource And The Update Checke
+# How To Setup UpdateChecker
+# Step 1 - Create A txt File In VersionChecker Resource/File
+# Step 2 - Create A Server Side file And Add This Below
+# Step 3 - Update FILE_NAME.txt On Line 11 To The txt Created
+# Step 4 - Update local resourcename To The Resource Name
+# Step 5 - Update local howto To Your Howto Update
+# Step 6 - Match The Version In The txt To The Version In FxMani
+# Step 7 - Test The Resource And The Update Checke
 
 ```lua
 local function CheckVersion()
