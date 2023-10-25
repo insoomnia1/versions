@@ -9,7 +9,7 @@ Step 5 - Update local howto To Your Howto Update
 Step 6 - Match The Version In The txt To The Version In FxMani
 Step 7 - Test The Resource And The Update Checke
 
-
+```lua
 local function CheckVersion()
     PerformHttpRequest('https://raw.githubusercontent.com/Marshxan/VersionChecker/master/FILE_NAME.txt', function(err, newestVersion, headers)
     	local currentVersion = GetResourceMetadata(GetCurrentResourceName(), 'version')
@@ -36,3 +36,4 @@ local function CheckVersion()
     end)
 end
 CheckVersion()
+```
